@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fond principal -->
+    <color name="moneto_bg_dark">#0F1117</color>
+    <color name="moneto_bg_card">#1A1F2E</color>
+    <color name="moneto_bg_surface">#13161F</color>
+
+    <!-- Accent doré -->
+    <color name="moneto_gold">#F59E0B</color>
+    <color name="moneto_gold_light">#FCD34D</color>
+
+    <!-- Textes -->
+    <color name="moneto_text_primary">#FFFFFF</color>
+    <color name="moneto_text_secondary">#9CA3AF</color>
+    <color name="moneto_text_hint">#4B5563</color>
+
+    <!-- Variation -->
+    <color name="moneto_up">#10B981</color>
+    <color name="moneto_down">#EF4444</color>
+    <color name="moneto_neutral">#6B7280</color>
+
+    <!-- Bordures -->
+    <color name="moneto_divider">#1F2937</color>
+</resources>

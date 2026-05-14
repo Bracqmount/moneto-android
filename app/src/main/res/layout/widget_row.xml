@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:paddingEnd="16dp">
+
+    <!-- Bordure gauche colorée -->
+    <TextView
+        android:id="@+id/tv_row_border"
+        android:layout_width="3dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="#10B981"
+        android:text=""
+        android:layout_gravity="center_vertical" />
+
+    <!-- Paire de devises -->
+    <TextView
+        android:id="@+id/tv_row_pair"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="EUR → GBP"
+        android:textSize="13sp"
+        android:textColor="#D1D5DB" />
+
+    <!-- Taux -->
+    <TextView
+        android:id="@+id/tv_row_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.8542"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Variation -->
+    <TextView
+        android:id="@+id/tv_row_variation"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="▲ +0.12%"
+        android:textSize="10sp"
+        android:textColor="#10B981"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Flèche -->
+    <TextView
+        android:id="@+id/tv_row_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="›"
+        android:textSize="16sp"
+        android:textColor="#4B5563" />
+
+</LinearLayout>

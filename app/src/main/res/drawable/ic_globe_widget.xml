@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Cercle extérieur -->
+    <path
+        android:pathData="M12,2 A10,10 0 1,1 11.999,2 Z"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Méridien gauche -->
+    <path
+        android:pathData="M12,2 C12,2 7,7 7,12 C7,17 12,22 12,22"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.2"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Méridien droit -->
+    <path
+        android:pathData="M12,2 C12,2 17,7 17,12 C17,17 12,22 12,22"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.2"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Équateur -->
+    <path
+        android:pathData="M2,12 L22,12"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.2"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Parallèle haut -->
+    <path
+        android:pathData="M4,7 Q12,9.5 20,7"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="0.8"
+        android:strokeAlpha="0.6"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Parallèle bas -->
+    <path
+        android:pathData="M4,17 Q12,14.5 20,17"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="0.8"
+        android:strokeAlpha="0.6"
+        android:fillColor="@android:color/transparent"/>
+
+</vector>
