@@ -1,10 +1,10 @@
-# Politique de confidentialité — Moneto
+# Politique de confidentialité — Cambio
 
 *Dernière mise à jour : mai 2026*
 
 ## Collecte de données
 
-L'application Moneto ne collecte, ne stocke et ne partage aucune donnée personnelle concernant ses utilisateurs.
+L'application Cambio ne collecte, ne stocke et ne partage aucune donnée personnelle concernant ses utilisateurs.
 
 ## API externe
 
